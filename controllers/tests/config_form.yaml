@@ -1,0 +1,10 @@
+name: Tests
+form: $/offline/repeatertranslate/models/test/fields.yaml
+modelClass: OFFLINE\Repeatertranslate\Models\Test
+defaultRedirect: offline/repeatertranslate/tests
+create:
+    redirect: 'offline/repeatertranslate/tests/update/:id'
+    redirectClose: offline/repeatertranslate/tests
+update:
+    redirect: offline/repeatertranslate/tests
+    redirectClose: offline/repeatertranslate/tests

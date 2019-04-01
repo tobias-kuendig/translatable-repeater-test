@@ -1,0 +1,11 @@
+plugin:
+    name: 'offline.repeatertranslate::lang.plugin.name'
+    description: 'offline.repeatertranslate::lang.plugin.description'
+    author: OFFLINE
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Repeater Test'
+        url: offline/repeatertranslate/tests
+        icon: icon-life-ring

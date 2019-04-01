@@ -1,0 +1,16 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    values:
+        label: Repeater
+        prompt: 'Add new item'
+        span: auto
+        type: repeater
+        form:
+            fields:
+                name:
+                    label: 'Name (nested)'
+                    span: auto
+                    type: text
